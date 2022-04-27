@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Catalogue</string>
+    <string name="Agregar">Add Data</string>
+    <string name="title_activity_config">Configuration</string>
+    <string name="Español">Spanish</string>
+    <string name="Ingles">English</string>
+    <string name="Marca">Brand:</string>
+    <string name="Modelo">Model:</string>
+    <string name="Nombre">Name:</string>
+    <string name="Idioma">Select Language</string>
+    <string name="Tamaño">Screen Size:</string>
+    <string name="Borrar">Erase All Data</string>
+    <string name="VerDatos">See Data</string>
+    <string name="Version">Android Version:</string>
+    <string name="btBorrar">Erase</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="Elimina">Delete Data</string>
+    <string name="duda">¿Do you want delete all data?</string>
+    <string name="sib">The data has been deleted</string>
+    <string name="nob">The data has not been deleted</string>
+    <string name="fd">Missing data to enter</string>
+</resources>

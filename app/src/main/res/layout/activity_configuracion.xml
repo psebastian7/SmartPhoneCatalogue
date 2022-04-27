@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cc.catalogo.Configuracion"
+    android:id="@+id/config"
+    >
+
+    <TextView
+        android:id="@+id/tvTema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/Borrar"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvTema"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="19dp"
+        android:hint="@string/Idioma"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnespañol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvTema"
+        android:layout_below="@+id/textView10"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="39dp"
+        android:hint="@string/Español" />
+
+    <Button
+        android:id="@+id/btningles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnespañol"
+        android:layout_alignBottom="@+id/btnespañol"
+        android:layout_marginStart="39dp"
+        android:layout_toEndOf="@+id/btnespañol"
+        android:hint="@string/Ingles" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvTema"
+        android:layout_alignBottom="@+id/tvTema"
+        android:layout_toEndOf="@+id/btningles"
+        android:onClick="onclick"
+        android:text="@string/btBorrar" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/items">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/noimg" />
+
+    <TextView
+        android:id="@+id/tvNombre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="26dp"
+        android:layout_toEndOf="@+id/imageView1"
+        android:text="@string/Nombre"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvMarca1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvNombre1"
+        android:layout_below="@+id/tvNombre1"
+        android:layout_marginTop="24dp"
+        android:text="@string/Marca"
+        android:textColor="@android:color/black" />
+
+
+
+</RelativeLayout>
